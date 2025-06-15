@@ -1,0 +1,198 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPForms Tribe 1.4.0\n"
+"Report-Msgid-Bugs-To: https://wpforms.com/support/\n"
+"Last-Translator: WPForms <support@wpforms.com>\n"
+"Language-Team: WPForms <support@wpforms.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-09T07:40:09+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: wpforms-tribe\n"
+
+#. Plugin Name of the plugin
+msgid "WPForms Tribe"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://wpforms.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Tribe integration with WPForms."
+msgstr ""
+
+#. Author of the plugin
+msgid "WPForms"
+msgstr ""
+
+#: src/Provider/Api.php:69
+#: src/Provider/Api.php:84
+msgid "Unexpected account options."
+msgstr ""
+
+#: src/Provider/Auth.php:220
+msgid "Tribe Integration: account was connected successfully."
+msgstr ""
+
+#. translators: %s - response error description.
+#: src/Provider/Auth.php:230
+#: src/Provider/Auth.php:238
+#: src/Provider/Auth.php:379
+msgid "Tribe Integration: account connection failed (%s)."
+msgstr ""
+
+#: src/Provider/Auth.php:259
+msgid "Tribe Integration: account connection update failed (no access token found)."
+msgstr ""
+
+#: src/Provider/Auth.php:268
+msgid "Tribe Integration: account connection update failed (no refresh token found)."
+msgstr ""
+
+#: src/Provider/Auth.php:283
+msgid "Tribe Integration: account connection updated successfully."
+msgstr ""
+
+#. translators: %s - response error description.
+#: src/Provider/Auth.php:293
+#: src/Provider/Auth.php:301
+msgid "Tribe Integration: account connection update failed (%s)."
+msgstr ""
+
+#: src/Provider/Auth.php:394
+msgid "Tribe Integration: account connection failed (authorization code not passed)."
+msgstr ""
+
+#: src/Provider/Auth.php:516
+msgid "Tribe Integration: account connection failed (this account already connected)."
+msgstr ""
+
+#: src/Provider/Auth.php:553
+msgid "Tribe Integration: data retrieval failed (resource owner error)."
+msgstr ""
+
+#. translators: %s - response error description.
+#: src/Provider/Auth.php:564
+#: src/Provider/Auth.php:572
+msgid "Tribe Integration: data retrieval failed (%s)."
+msgstr ""
+
+#: src/Provider/Connection.php:35
+msgid "Unexpected connection data."
+msgstr ""
+
+#: src/Provider/Connection.php:227
+msgid "Account"
+msgstr ""
+
+#: src/Provider/Connection.php:228
+msgid "Campaign"
+msgstr ""
+
+#: src/Provider/Connection.php:229
+msgid "Case"
+msgstr ""
+
+#: src/Provider/Connection.php:230
+msgid "Contact"
+msgstr ""
+
+#: src/Provider/Connection.php:231
+msgid "Lead"
+msgstr ""
+
+#: src/Provider/Connection.php:232
+msgid "Opportunity"
+msgstr ""
+
+#: src/Provider/Connection.php:233
+msgid "Product"
+msgstr ""
+
+#: src/Provider/Core.php:34
+msgid "Tribe"
+msgstr ""
+
+#: src/Provider/Process.php:193
+msgid "Something went wrong while performing API request for retrieving object fields."
+msgstr ""
+
+#: src/Provider/Process.php:203
+msgid "Missing valid values for all required fields."
+msgstr ""
+
+#: src/Provider/Process.php:465
+msgid "Submission to Tribe failed."
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:218
+msgid "New Tribe Account"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:254
+msgid "Marketing provider connection"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:432
+msgid "--- Select Tribe Field ---"
+msgstr ""
+
+#: src/Provider/Settings/PageIntegrations.php:98
+msgid "Please provide valid Consumer Key and Consumer Secret."
+msgstr ""
+
+#. translators: %s - provider name.
+#: src/Provider/Settings/PageIntegrations.php:131
+msgid "Connect to %s"
+msgstr ""
+
+#: src/Provider/Settings/PageIntegrations.php:135
+msgid "Add New Account"
+msgstr ""
+
+#: src/Provider/Settings/PageIntegrations.php:140
+msgid "Please fill out all of the fields below to add your new provider account."
+msgstr ""
+
+#: templates/settings/new-account-form.php:13
+msgid "Consumer Key"
+msgstr ""
+
+#: templates/settings/new-account-form.php:14
+msgid "Consumer Secret"
+msgstr ""
+
+#: templates/settings/new-account-form.php:17
+msgid "Callback URL:"
+msgstr ""
+
+#. translators: %s - URL to the Tribe documentation page on WPForms.com.
+#: templates/settings/new-account-form.php:28
+msgid "Click <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">here</a> to learn how to connect WPForms with Tribe."
+msgstr ""
+
+#: templates/settings/new-account-form.php:42
+#: templates/tmpl/error.php:8
+msgid "Something went wrong while performing an AJAX request."
+msgstr ""
+
+#: templates/tmpl/connection.php:24
+msgid "Select Account"
+msgstr ""
+
+#: templates/tmpl/connection.php:27
+#: templates/tmpl/connection.php:41
+msgid "--- Select ---"
+msgstr ""
+
+#: templates/tmpl/connection.php:38
+msgid "Select Tribe Object"
+msgstr ""
+
+#: templates/tmpl/required-fields.php:16
+msgid "--- Select Form Field ---"
+msgstr ""
