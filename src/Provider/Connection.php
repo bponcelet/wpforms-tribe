@@ -222,7 +222,7 @@ class Connection {
 	 * @return array
 	 */
 	public static function get_objects_list() {
-
+		// TODO: review list of objects available in tribe
 		return [
 			'Account'     => esc_html__( 'Account', 'wpforms-tribe' ),
 			'Campaign'    => esc_html__( 'Campaign', 'wpforms-tribe' ),

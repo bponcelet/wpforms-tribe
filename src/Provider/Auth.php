@@ -24,8 +24,9 @@ class Auth {
 	 * @since 1.0.0
 	 */
 	const SCOPES = [ //phpcs:ignore PHPCompatibility.InitialValue.NewConstantArraysUsingConst.Found
-		'api',
-		'refresh_token',
+		'read',
+		'write',
+		'offline',
 	];
 
 	/**
@@ -45,7 +46,7 @@ class Auth {
 	 *
 	 * @var string
 	 */
-	protected static $domain = 'https://login.tribe.com';
+	protected static $domain = 'https://auth.tribecrm.nl';
 
 	/**
 	 * Client.
@@ -313,7 +314,7 @@ class Auth {
 	 */
 	public static function get_authorization_url() {
 
-		return self::$domain . '/services/oauth2/authorize';
+		return self::$domain . '/oauth2/auth';
 	}
 
 	/**
@@ -325,7 +326,7 @@ class Auth {
 	 */
 	public function get_access_token_url() {
 
-		return self::$domain . '/services/oauth2/token';
+		return self::$domain . '/oauth2/token';
 	}
 
 	/**

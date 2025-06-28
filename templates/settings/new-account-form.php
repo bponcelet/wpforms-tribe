@@ -4,10 +4,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-<form action="<?php echo esc_url( $args['authorization_url'] ); ?>" id="wpforms-tribe-new-account-connection-form" method="post">
+<form action="<?php echo esc_url( $args['authorization_url'] ); ?>" id="wpforms-tribe-new-account-connection-form" method="get">
 	<input type="hidden" name="response_type" value="code">
 	<input type="hidden" name="scope" value="<?php echo esc_attr( $args['scope'] ); ?>">
-	<input type="hidden" name="prompt" value="<?php echo esc_attr( $args['prompt'] ); ?>">
+	<!-- <input type="hidden" name="prompt" value="<?php echo esc_attr( $args['prompt'] ); ?>"> -->
+	<input type="hidden" name="organization_id" value="83587192-a771-4a20-ba5e-c95904c2d65d">
 	<input type="hidden" name="state" value="">
 	<p class="wpforms-settings-provider-accounts-connect-fields">
 		<input type="text" name="client_id" class="wpforms-required" placeholder="<?php esc_attr_e( 'Consumer Key', 'wpforms-tribe' ); ?>">
